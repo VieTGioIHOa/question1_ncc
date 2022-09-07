@@ -6,11 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <div class="container">
-      <aside>
-        <div>
+      <aside class="">
+        <div class="menu-layout-mobile">
+          <div class="btn-close-menu">
+            <i class="fa-sharp fa-solid fa-xmark"></i>
+          </div>
           <ul class="menu">
             <li><a href="">Home</a></li>
             <li><a href="">Services</a></li>
@@ -97,9 +107,15 @@
           </div>
         </div>
         <footer>
-          <span>copyright &copy 2021</span>
+          <span>Copyright &copy 2021</span>
         </footer>
       </article>
+      <div class="btn-menu-mobile">
+        <button>
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
     </div>
+    <script src="./app.js"></script>
   </body>
 </html>
