@@ -49,6 +49,10 @@ aside {
   color: #aaaaaa;
 }
 
+.menu li a:hover {
+  color: #fff;
+}
+
 .menu li:first-child a {
   color: #fff;
 }
@@ -77,6 +81,12 @@ article {
   font-size: 1.8rem;
   color: #000;
   margin-bottom: 18px;
+}
+
+.content__head-title:hover,
+.content__body-item-title:hover {
+  color: red;
+  cursor: pointer;
 }
 
 .content__head > p {
